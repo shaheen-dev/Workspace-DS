@@ -20,7 +20,7 @@ public class BinarySearch
             return -1;
     }
 	public static void main(String[] args) {
-	    Main m=new Main();
+	    BinarySearch bs=new BinarySearch();
 	   
 	    
 	    int arr[] = {10,20,30,40,50,60,70};
@@ -28,7 +28,7 @@ public class BinarySearch
 	    Scanner sc=new Scanner(System.in);
 	    int s=sc.nextInt();
 	    
-		int result = m.binarySearch(arr,s,l,r);
+		int result = bs.binarySearch(arr,s,l,r);
 		if(result == -1)
 		    System.out.println("Not found ");
 		else
